@@ -96,11 +96,13 @@
     <Compile Include="Controllers\DemoController.cs" />
     <Compile Include="Controllers\FileController.cs" />
     <Compile Include="Controllers\FoodController.cs" />
+    <Compile Include="Controllers\HelthController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\VisaController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Health.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -119,6 +121,7 @@
     <Folder Include="Views\Demo\" />
     <Folder Include="Views\File\" />
     <Folder Include="Views\Food\" />
+    <Folder Include="Views\Helth\" />
     <Folder Include="Views\Home\" />
     <Folder Include="Views\Visa\" />
   </ItemGroup>
